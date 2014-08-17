@@ -44,7 +44,7 @@ BOARD_CHARGING_CMDLINE_VALUE := "true"
 BOARD_EGL_CFG := device/samsung/msm8974-common/configs/egl.cfg
 TARGET_DISPLAY_USE_RETIRE_FENCE := true
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
-TARGET_QCOM_DISPLAY_VARIANT := caf-new
+TARGET_QCOM_DISPLAY_VARIANT := caf-bfam
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 
 # Shader cache config options
@@ -58,7 +58,7 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 
 # Media
-TARGET_QCOM_MEDIA_VARIANT := caf-new
+TARGET_QCOM_MEDIA_VARIANT := caf-bfam
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 
 # Qualcomm support
